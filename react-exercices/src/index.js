@@ -6,14 +6,16 @@ import ReactDOM from "react-dom"
 // import SilvaFamilyComponent from './components/SilvaFamilyComponent'
 import FamilyComponent from './components/FamilyComponent'
 import MemberComponent from './components/MemberComponent'
+import ComponentWithFunction from './components/ComponentWithFunction'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <FamilyComponent lastname='Roxo'>
+        <ComponentWithFunction/>
+        {/* {<FamilyComponent lastname='Roxo'>
             <MemberComponent name='Vitor' />
             <MemberComponent name='Keila' />
-        </FamilyComponent >
+        </FamilyComponent >} */}
         {/*
         <SilvaFamilyComponent lastname='Silva'/>
         <MultiElementsComponent />
