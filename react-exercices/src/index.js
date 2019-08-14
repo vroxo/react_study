@@ -4,14 +4,18 @@ import ReactDOM from "react-dom"
 // import {CompA, CompB} from './components/TwoComponent'
 // import MultiElementsComponent from './components/MultiElementsComponent'
 // import SilvaFamilyComponent from './components/SilvaFamilyComponent'
-import FamilyComponent from './components/FamilyComponent'
-import MemberComponent from './components/MemberComponent'
-import ComponentWithFunction from './components/ComponentWithFunction'
+// import FamilyComponent from './components/FamilyComponent'
+// import MemberComponent from './components/MemberComponent'
+// import ComponentWithFunction from './components/ComponentWithFunction'
+// import Dad from './components/Dad'
+import ClassComponent from './components/ClassComponent'
 
-const elemento = document.getElementById('root')
+const element = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <ComponentWithFunction/>
+        <ClassComponent value="Hello class with props!"/>
+        {/* <Dad /> */}
+        {/* <ComponentWithFunction/> */}
         {/* {<FamilyComponent lastname='Roxo'>
             <MemberComponent name='Vitor' />
             <MemberComponent name='Keila' />
@@ -24,7 +28,7 @@ ReactDOM.render(
         <CompB value='B na area!'/>
         */}
     </div>
-    , elemento)
+    , element)
 
 
 
