@@ -8,18 +8,22 @@ import ReactDOM from "react-dom"
 // import MemberComponent from './components/MemberComponent'
 // import ComponentWithFunction from './components/ComponentWithFunction'
 // import Dad from './components/Dad'
-import ClassComponent from './components/ClassComponent'
+// import ClassComponent from './components/ClassComponent'
+// import Counter from './components/Counter'
+import Hook from './components/Hook'
 
 const element = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <ClassComponent value="Hello class with props!"/>
+        <Hook />
+        {/* <Counter /> */}
+        {/* <ClassComponent value="Hello class with props!"/> */}
         {/* <Dad /> */}
         {/* <ComponentWithFunction/> */}
-        {/* {<FamilyComponent lastname='Roxo'>
+        {/* <FamilyComponent lastname='Roxo'>
             <MemberComponent name='Vitor' />
             <MemberComponent name='Keila' />
-        </FamilyComponent >} */}
+        </FamilyComponent > */}
         {/*
         <SilvaFamilyComponent lastname='Silva'/>
         <MultiElementsComponent />
